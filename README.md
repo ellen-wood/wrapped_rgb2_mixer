@@ -1,22 +1,27 @@
-![](../../workflows/multi_tool/badge.svg)
+[![multi_tool](https://github.com/mattvenn/wrapped_rgb_mixer/actions/workflows/multi_tool.yaml/badge.svg)](https://github.com/mattvenn/wrapped_rgb_mixer/actions/workflows/multi_tool.yaml)
 
-# Information about your project
+# Wrapped RGB Mixer
 
-This is a template project you can clone and use to take part in the multi project submission to the
-Google/Efabless/Skywater shuttle.
+This repository is a template for projects 3.2 and 5.1 that takes you through:
 
-The tools that will test and create the aggregated design are here: https://github.com/mattvenn/multi_project_tools
+## 3.2
 
-# Project info.yaml
+* Putting the project from 2.1 design inside the project wrapper.
+* Writing some assertions that prove the design is safe in a multi project environment.
+* Runnng the formal tools to make the proof.
 
-You need to fill in the fields of [info.yaml](info.yaml)
+## 5.1
 
-See [here for more information](https://github.com/mattvenn/multi_project_tools/blob/main/docs/project_spec.md)
+* Adding the design to Caravel
+* Makefile & testbench
+* Firmware
 
-# Zero to ASIC Course
-
-This project was made as part of the [Zero to ASIC Course](https://zerotoasiccourse.com)!
 
 # License
 
-This project is [licensed under Apache 2](LICENSE)
+This repo is part of the [Zero to ASIC course](https://zerotoasiccourse.com) and licensed with [Apache 2](LICENSE).
+
+# Resources
+
+* SBY docs https://symbiyosys.readthedocs.io/en/latest/index.html
+* Getting started with Formal Verification youtube course: https://www.youtube.com/playlist?list=PLX1FD-Xa88fbMhT-tTe67O2gz_UwEjz9-
